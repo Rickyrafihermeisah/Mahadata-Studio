@@ -1,0 +1,272 @@
+:root{
+    --oren: #F4891E;
+    --kuning: #EACE2A;
+    --hitam: #2D2D2D;
+    --cream: #F7F9CC;
+    --putih: #FFFFFF;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.navbar{
+    margin-top: 36px;
+    height: 80px;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-menu{
+    font-size: 18px;
+    display: flex;
+    gap: 50px;
+}
+.navbar img{
+    margin-left: 50px;
+    height: 70px;
+    width: 160px;
+}
+
+.btn-daftar-navbar{
+    font-size: 16px;
+    margin-right: 30px;
+    outline: none;
+    -webkit-text-fill-color: var(--putih);
+    background-color: var(--oren);
+    border-color: var(--oren);
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+}
+.btn-masuk-navbar{
+    font-size: 16px;
+    display: flexbox;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    -webkit-text-fill-color: var(--oren);
+    border-color: var(--oren);
+    border-radius: 15px;
+}
+
+
+.hero-container{
+    margin-top: 150px;
+    display: flex;
+    height: 460px;
+    padding: 0 10%;
+    /* background-color: brown; */
+}
+.hero-container > div{
+    padding-top: 60px;
+    width: 50%;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+}
+.hero-container h1{
+    font-size: 24px;
+    font-style:bold;
+    width: 500px;
+}
+.hero-container h3{
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+}
+.hero-container p{
+    font-size: 16px;
+    font-style: italic;
+}
+.hero-container > div > div{
+    padding-top: 20px;
+}
+.btn-masuk-hero{
+    margin: 0 50px;
+    font-size: 24px;
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: transparent;
+    -webkit-text-fill-color: var(--oren);
+    border-color: var(--oren);
+}
+.btn-daftar-hero{
+    font-size: 24px;
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    justify-content: center;
+    -webkit-text-fill-color: var(--putih);
+    background-color: var(--oren);
+    border-color: var(--oren);
+}
+.hero-container > img{
+    width: 50%;
+    height: 550px;
+    margin-right: 10px;
+    align-self: center;
+    /* background: yellow; */
+}
+
+.tentangkami-container{
+    /* background-color: aquamarine; */
+    height: 800px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tentangkami-container > div > div{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.tentangkami-container > div > h1{
+   text-align: center;
+   margin-bottom: 50px;
+   font-size: 24px;
+   font-style: bold;
+}.tentangkami-container > div > h3{
+   text-align: justify;
+   margin-left: 500px;
+   margin-right: 450px;
+   font-size: 16px;
+   font-style: bold;
+}
+
+.imgcto{
+    margin-right: 390px;
+    width: 33%;
+    justify-items: center;
+    align-items: center;
+}.imgcto > img{
+    margin-left: 20px;
+    border-radius: 100%;
+}
+
+.imgceo{
+    margin-left: 90px;
+    margin-right: 110px;
+    width: 33%;
+}.imgceo > img{
+    margin-left: 20px;
+    border-radius: 100%;
+}
+
+.imgcmo{
+    margin-left: 490px;
+    width: 33%;
+}.imgcmo > img{
+    margin-left: 20px;
+    border-radius: 100%;
+}
+
+.produk-container{
+    padding: 0 10%;
+    height: 1750px;
+}
+.produk-container > h1{
+    text-align: center;
+}.produk-container > div > img{
+    width: 40%;
+    object-fit: cover;
+}
+.produk-container > div{
+    display: flex;
+}
+.produk-container > div > div{
+    margin-top: 120px;
+    width: 60%;
+}.produk-container > div > div > button{
+    font-size: 16px;
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    justify-content: center;
+    -webkit-text-fill-color: var(--hitam);
+    background-color: var(--kuning);
+    border-color: var(--kuning);
+}
+
+.stories-container{
+    margin-top: 120px;
+    padding: 0 10%;
+}.stories-container > h1{
+    text-align: center;
+}.stories-container > div{
+    -webkit-box-align: center;
+    border-radius: 15px;
+    width: 900px;
+    margin-left: 400px;
+    background-color: var(--cream);
+}.stories-container > div > div{
+    margin-left: 10%;
+}.stories-container > div > h3{
+    text-align: center;
+}.stories-container > div > p{
+    text-align: center;
+}
+
+.our-container{
+    margin-top: 120px;
+    padding: 0 10%;
+    height: 486px;
+}.our-container > h1{
+    text-align: center;
+}.our-container > div > img{
+    margin-left: 300px;
+}
+
+.bwhdaf-container{
+    margin-top: 30px;
+    padding-top: 15px;
+    padding: 0 20%;
+}.bwhdaf-container > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.bwhdaf-container > div > p{
+    font-size: 16px;
+    width: 70%;
+}.bwhdaf-container > div > button{
+    width: 20%;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 22px;
+    justify-content: center;
+    -webkit-text-fill-color: var(--putih);
+    background-color: var(--oren);
+    border-color: var(--oren);
+}
+
+.footer-container{
+    background-color: var(--cream);
+    margin-top: 60px;
+    padding: 0 10%;
+}.footer-container > div{
+    display: flex;
+}.kiri{
+    margin-left: 10%;
+    width: 33%;
+}.tengah{
+    display: flex;
+    width: 33%;
+}.tengah > h4{
+    margin-left: 10%;
+    text-align: center;
+}
+.kanan{
+    width: 33%;
+}.footer-container > h3{
+    text-align: center;
+}
